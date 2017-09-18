@@ -16,8 +16,8 @@ enum Months{
   
        //constructor which is invoked separately for each constant
        private Months(){
-         System.out.println("Constructor invoked for Month" + " " + this.toString() + " " + "and it is present at index" + " " + this.toString().ordinal());
-       }
+         System.out.println("Constructor invoked for Month" + " " + this.toString());
+      }
   
        public void birthdayMonth(){
           System.out.println("December");
