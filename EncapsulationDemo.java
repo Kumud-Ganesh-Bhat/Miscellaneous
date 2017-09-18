@@ -29,15 +29,15 @@ public class EncapsulationDemo{
   
       //getter methods
       public String getAuthorName(){
-             return this.authorName;
+             return (this.authorName);
       }
   
       public String getDesignation(){
-             return this.designation;
+             return (this.designation);
       }
   
       public long getContactNo(){
-             return this.contactNo;
+             return (this.contactNo);
       }
 }
 
