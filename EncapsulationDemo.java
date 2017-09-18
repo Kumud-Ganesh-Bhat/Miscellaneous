@@ -42,3 +42,4 @@ public class EncapsulationDemo{
 }
 
 
+//Required to write Driver class for the above class in separate file
