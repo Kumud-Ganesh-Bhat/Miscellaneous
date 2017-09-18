@@ -7,7 +7,7 @@
 *
 */
 
-public class InitializationAndComparison{
+public class InitializingAndComparing{
       public static void main(String[] args){
             String str1 = "Kumud"; //Direct Initialization
             String str2 = "Kumud";
