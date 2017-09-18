@@ -1,6 +1,6 @@
 /**
 * <h1> Creating object using java.lang.Class.forName(String classname).newInstance() method </h1>
-* There is a predefine class Class in java.lang package. 
+* There is a predefined class Class in java.lang package. 
 * On calling forName(String classname) method, object of Class associated with string classname will be created.
 * On calling newInstance method on this Class object will create an object of class specified by String classname
 * Note: We have to give fully qualified name of class in String classname
