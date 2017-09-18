@@ -20,13 +20,13 @@ public class NewInstanceDemo(){
           System.out.println(nd.x);
     }
     catch(InstantiationException ie){
-          System.out.println(ie.printStackTrace());
+          ie.printStackTrace();
     }
     catch(IllegalAccessException iae){
-          System.out.println(iae.printStackTrace());
+          iae.printStackTrace();
     }
     catch(ClassNotFoundException cfe){
-          System.out.println(cfe.printStackTrace());
+          cfe.printStackTrace();
     }
    }
 }
