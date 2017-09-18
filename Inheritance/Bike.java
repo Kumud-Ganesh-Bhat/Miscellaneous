@@ -24,4 +24,8 @@ public class Bike{
      public void applyBrake(int value){
           speed-= value;
      }
+      
+     public String toString(){
+           return("Speed:" + " " + this.speed+ "\n" + "Number of Gears:" + " " + this.noGears);
+     }
 }
