@@ -26,9 +26,9 @@ enum Months{
 
 public class EnumDemo{
        
-       Month month;
+       Months month;
       
-       public EnumDemo(Month month){
+       public EnumDemo(Months month){
               this.month = month;
        }
   
@@ -65,7 +65,7 @@ public class EnumDemo{
       public static void main(String[] args){
           EnumDemo ed = new EnumDemo(Month.valueOf("DECEMBER"));
           ed.monthIsLike();
-          Month m1 = Month.DECEMBER;
+          Months m1 = Months.DECEMBER;
           m1.birthdayMonth();
       }
 }
