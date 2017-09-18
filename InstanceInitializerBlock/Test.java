@@ -14,4 +14,11 @@ public class Test{
 }
 
 /* Output
+Parent class Initializer Block 1
+Parent class Initializer Block 2
+Parent class constructor
+Child class Initializer Block 1
+Child class Initializer Block 2
+Child class constructor
+
    
