@@ -12,7 +12,7 @@ public class RemoveTrailingZeros{
               StringBuilder sbl = new StringBuilder("000012305690"); //use StringBuilder class because String objects are immutable
               System.out.println("Before Removing zeros" + " " + sbl.toString());
               int count = 0;
-              while(sbl.charAt(i) == '0'){
+              while(sbl.charAt(count) == '0'){
                    count++;
               }
              sbl.replace(0,count, " " );
