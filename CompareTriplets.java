@@ -20,7 +20,7 @@ import java.util.Arrays;
 
 public class CompareTriplets{
   
-  public static void compareTriplets(int[] a, int[] b){
+  public static String compareTriplets(int[] a, int[] b){
         int x = 0;
         int y = 0;
         for(int i=0; i<3; i++){
@@ -32,7 +32,7 @@ public class CompareTriplets{
     
        int result[] = {x,y};
        
-       System.out.println(Arrays.toString(result));
+       return(Arrays.toString(result));
   }
   
   public static void main(String[] args){
@@ -45,7 +45,7 @@ public class CompareTriplets{
     for(int i=0; i<a.length; i++)
             a[i] = sc.nextInt();
     
-    for(int j=0; j<b.length; b++)
+    for(int j=0; j<b.length; j++)
             b[j] = sc.nextInt();
     
     System.out.println("Alice ratings:");
@@ -60,3 +60,4 @@ public class CompareTriplets{
     
     System.out.println("Comparison Triplets:" + compareTriplets(a,b));
   }
+}
