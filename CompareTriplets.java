@@ -26,8 +26,12 @@ public class CompareTriplets{
         for(int i=0; i<3; i++){
           if(a[i]>b[i])
              x++;
+          else if(a[i] == b[i]){
+               x+=0;
+               y+=0;
+          }
           else
-            y++;
+              y++;
         }
     
        int result[] = {x,y};
