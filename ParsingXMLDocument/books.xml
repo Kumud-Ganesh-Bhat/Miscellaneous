@@ -1,1 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 
+
+<books>
+    <book id = "101">
+        <title> XML Developer's Guide </title>
+        <author> Gamberdella,Mathew </author>
+        <genre> Computer </genre>
+        <price> 44.95 </price>
+        <publish_date> 2000-10-01 </publish_date>
+        <description> An in_depth look at creating applications using XML </description>
+    </book>
+    
+    <book id = "102">
+        <title> Cracking the Coding Interview </title>
+        <author> McDowell,Gayle Laakmann </author>
+        <genre> Computer </genre>
+        <price> 37.65 </price>
+        <publish_date> 2000-10-01 </publish_date>
+        <description> An in_depth look at how to uncover the hints and hidden details in interview questions </description>
+    </book>
+    
+</books>
